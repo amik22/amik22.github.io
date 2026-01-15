@@ -4429,7 +4429,7 @@
 		var network = new Lampa.Reguest();
 		network.timeout(10000);
 		network.silent(
-			"https://github.io/lampac-links/working_online_lampa.json",
+			"https://amik22.github.io/j/work.json",
 			function (json) {
 				if (!Lampa.Arrays.isArray(json) || json.length === 0) {
 					Lampa.Noty.show("Серверы не найдены");
