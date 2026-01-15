@@ -404,8 +404,8 @@
 				return getServerUrl();
 			},
 			NwsClientScript:
-				"https://ipavlin98.github.io/lmp-plugins/nws-client-es5.js",
-			GithubCheck: "https://github.com/",
+				"https://amik22.github.io/j/nws-client-es5.js",
+			Check: "https://github.com/",
 			CorsCheckPath: "/cors/check"
 		},
 		Rch: {
@@ -4375,7 +4375,7 @@
 		var network = new Lampa.Reguest();
 		network.timeout(10000);
 		network.silent(
-			"https://github.io/lampac-links/working_online_lampa.json",
+			"https://amik22.github.io/j/work.json",
 			function (json) {
 				if (!Lampa.Arrays.isArray(json) || json.length === 0) {
 					Lampa.Noty.show(Lampa.Lang.translate("lampac_no_servers_found"));
